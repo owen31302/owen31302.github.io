@@ -1,0 +1,67 @@
+.container{
+    /* This is just one example of a solution */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 15vh 75vh 10vh;
+
+    grid-template-areas:
+            "hd hd hd hd hd hd"
+            "sd main main main main main"
+            "ft ft ft ft ft ft";
+
+    /*border: 2px solid yellow;*/
+
+}
+
+.flex-container-col {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.content-card {
+    width: 308px;
+    margin-right: 40px;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-col > button{
+    margin:5px;
+}
+
+.header{
+    padding: 20px;
+    grid-area: hd;
+}
+
+.side-bar{
+    color: chartreuse;
+    grid-area: sd;
+}
+
+.main{
+    grid-area: main;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer{
+    grid-area: ft;
+    color: var(--spectrum-global-color-gray-50);
+    background-color: var(--spectrum-global-color-gray-700);
+    border-radius: var(--spectrum-card-border-radius, var(--spectrum-alias-border-radius-regular));
+    margin: 5px;
+}
+
+.footer > p{
+    margin-left: 20px;
+}
+
+.box{
+    /*border: 1px solid red;*/
+}

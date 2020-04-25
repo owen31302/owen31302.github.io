@@ -1,48 +1,150 @@
 <!DOCTYPE html>
-<html class="spectrum spectrum--medium spectrum--light">
-  <head>
-    <meta charset="utf-8" />
+<html class="spectrum spectrum--large spectrum--lightest">
+<head>
+    <meta charset="utf-8"/>
     <title>Exercise 1</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
 
-    <!--<link rel="stylesheet" href="css/node_modules/@spectrum-css/vars/dist/spectrum-global.css">-->
-    <!--<link rel="stylesheet" href="css/node_modules/@spectrum-css/vars/dist/spectrum-medium.css">-->
-    <!--<link rel="stylesheet" href="css/node_modules/@spectrum-css/vars/dist/spectrum-light.css">-->
-    <!--<link rel="stylesheet" href="css/node_modules/@spectrum-css/page/dist/index-vars.css">-->
-    <!--<link rel="stylesheet" href="css/node_modules/@spectrum-css/button/dist/index-vars.css">-->
-
     <link rel="stylesheet" href="css/main.css">
 
-  <style>
-  .container{
-      display:flex;
-      flex-direction: column;
-      /* alt solution */
-      flex-direction: column-reverse;
-      border: 2px solid yellow;
-  }
-  .box{
-        width: 250px;
-        height: 150px;
-        border: 1px solid red;
-    }
-  </style>
-  </head>
+</head>
 
-  <body>
+<body>
 
-  <button class="spectrum-Button spectrum-Button--cta">
-    <span class="spectrum-Button-label">Button</span>
-  </button>
+<div class="container spectrum">
 
-  <div class = "container">
-    <div class="box"> Box 1</div>
-    <div class="box"> Box 2</div>
-    <div class="box"> Box 3</div>
-    <!-- alternative solution -->
-    <!-- <div class="box"> Box 3</div> -->
-    <!-- <div class="box"> Box 2</div> -->
-    <!-- <div class="box"> Box 1</div> -->
-  </div>
-  </body>
+    <div class="box header spectrum-Typography">
+        <h1 class="spectrum-Heading">
+            Blog
+        </h1>
+    </div>
+
+    <div class="box side-bar">
+        <nav>
+            <ul class="spectrum-SideNav">
+                <li class="spectrum-SideNav-item ">
+                    <a class="spectrum-SideNav-itemLink " aria-current="page">Design System</a>
+                </li>
+                <li class="spectrum-SideNav-item">
+                    <a href="#" class="spectrum-SideNav-itemLink">Link Two</a>
+                </li>
+                <li class="spectrum-SideNav-item">
+                    <a href="#" class="spectrum-SideNav-itemLink">Link Three</a>
+                </li>
+                <li class="spectrum-SideNav-item">
+                    <a href="#" class="spectrum-SideNav-itemLink">Link Four</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="flex-container-col">
+            <button class="spectrum-Button spectrum-Button--cta">
+                <span class="spectrum-Button-label">FOLLOW</span>
+            </button>
+
+            <a role="button" href="#" class="spectrum-Button spectrum-Button--primary">
+                <span class="spectrum-Button-label">SUBSCRIBE</span>
+            </a>
+        </div>
+
+    </div>
+    <div class="box main">
+        <div class="flex-container-col">
+            <p>Typography Body Typography Heading Card</p>
+
+            <div class="flex-container-row">
+
+                <div class="content-card">
+                    <a href="#">
+                        <div class="spectrum-Card" tabindex="0" role="figure">
+                            <div class="spectrum-Card-coverPhoto"
+                                 style="background-image: url(img/download.jpeg)"></div>
+                            <div class="spectrum-Card-body">
+                                <div class="spectrum-Card-header">
+                                    <div class="spectrum-Card-title">Blog Post 1</div>
+                                </div>
+                                <div class="spectrum-Card-description">
+                                    <p>
+                                        Consulted he eagerness unfeeling deficient existence of.
+                                        Calling nothing end fertile for venture way boy.
+                                        Esteem spirit temper too say adieus who direct esteem.
+                                    </p>
+                                    <p>
+                                        It esteems luckily mr or picture placing drawing no.
+                                        Apartments frequently or motionless on reasonable projecting expression.
+                                        Way mrs end gave tall walk fact bed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="content-card">
+                    <a href="#">
+                        <div class="spectrum-Card" tabindex="0" role="figure">
+                            <div class="spectrum-Card-coverPhoto"
+                                 style="background-image: url(img/download.jpeg)"></div>
+                            <div class="spectrum-Card-body">
+                                <div class="spectrum-Card-header">
+                                    <div class="spectrum-Card-title">Blog Post 2</div>
+                                </div>
+                                <div class="spectrum-Card-description">
+                                    <p>
+                                        Increasing impression interested expression he my at.
+                                        Respect invited request charmed me warrant to.
+                                        Expect no pretty as do though so genius afraid cousin.
+
+                                    </p>
+                                    <p>
+                                        Girl when of ye snug poor draw. Mistake totally of in chiefly.
+                                        Justice visitor him entered for.
+                                        Continue delicate as unlocked entirely mr relation diverted in.
+                                        Known not end fully being style house. An whom down kept lain name so at easy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="content-card">
+                    <a href="#">
+                        <div class="spectrum-Card" tabindex="0" role="figure">
+                            <div class="spectrum-Card-coverPhoto"
+                                 style="background-image: url(img/download.jpeg)"></div>
+                            <div class="spectrum-Card-body">
+                                <div class="spectrum-Card-header">
+                                    <div class="spectrum-Card-title">Blog Post 3</div>
+                                </div>
+                                <div class="spectrum-Card-description">
+                                    <p>
+                                        It real sent your at. Amounted all shy set why followed declared.
+                                        Repeated of endeavor mr position kindness offering ignorant so up.
+                                        Simplicity are melancholy preference considered saw companions.
+                                    </p>
+                                    <p>
+                                        Disposal on outweigh do speedily in on. Him ham although thoughts entirely drawings.
+                                        Acceptance unreserved old admiration projection nay yet him.
+                                        Lasted am so before on esteem vanity oh.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="box footer">
+        <p>
+            Copyright 2020
+        </p>
+    </div>
+</div>
+</body>
 </html>
