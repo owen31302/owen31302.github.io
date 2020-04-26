@@ -1,5 +1,7 @@
 @import "common.css";
 
 /* adobe spectrum design system */
+@import "./node_modules/@spectrum-css/avatar/dist/index-vars.css";
 
 /* mycss */
+@import "./mycss/my-post.css";
