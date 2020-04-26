@@ -4,3 +4,15 @@
 @import "./node_modules/@spectrum-css/vars/dist/spectrum-lightest.css";
 @import "./node_modules/@spectrum-css/page/dist/index-vars.css";
 @import "./node_modules/@spectrum-css/typography/dist/index-vars.css";
+@import "./node_modules/@spectrum-css/link/dist/index-vars.css";
+@import "./node_modules/@spectrum-css/card/dist/index-vars.css";
+
+.flex-container-col {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+}

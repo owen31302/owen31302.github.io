@@ -2,6 +2,8 @@
 
 /* adobe spectrum design system */
 @import "./node_modules/@spectrum-css/avatar/dist/index-vars.css";
+@import "./node_modules/@spectrum-css/rule/dist/index-vars.css";
+
 
 /* mycss */
 @import "./mycss/my-post.css";
